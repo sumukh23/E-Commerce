@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single"></group>
+    <item
+        android:id="@+id/Drawerelectronics"
+        android:icon="@drawable/ic_menu_electronics"
+        android:title="Electronics" >
+
+    </item>
+    <item android:id="@+id/Drawermobiles"
+        android:title="Mobiles"
+        android:icon="@drawable/ic_mobile_512"
+        android:visible="false"> </item>
+    <item android:id="@+id/Drawerlaptops"
+        android:title="Laptops"
+        android:icon="@drawable/ic_02_512"
+        android:visible="false" ></item>
+    <item
+        android:id="@+id/Drawerstationary"
+        android:icon="@drawable/ic_menu_stationary"
+        android:title="Stationary" />
+    <item android:id="@+id/Drawerpen"
+        android:title="Pens"
+        android:icon="@drawable/ic_16347_200"
+        android:visible="false" />
+    <item android:id="@+id/Drawerpencilbox"
+        android:title="Pencil Box"
+        android:icon="@drawable/ic_pencilbox"
+        android:visible="false" />
+    <item
+        android:id="@+id/Drawerclothes"
+        android:icon="@drawable/ic_menu_clothes"
+        android:title="Clothes" />
+    <item android:id="@+id/Drawermen"
+        android:title="Men"
+        android:icon="@drawable/ic_male_icon_4"
+        android:visible="false" />
+    <item android:id="@+id/Drawerwomen"
+        android:title="Women"
+        android:icon="@drawable/ic_female"
+        android:visible="false" />
+    <item
+        android:id="@+id/Drawerfurniture"
+        android:icon="@drawable/ic_menu_furniture"
+        android:title="Furniture" />
+    <item android:id="@+id/Drawersofa"
+        android:title="Sofa"
+        android:icon="@drawable/ic_sofa"
+        android:visible="false" />
+    <item android:id="@+id/Drawerbed"
+        android:title="Bed"
+        android:icon="@drawable/ic_bed"
+        android:visible="false" />
+    <item
+        android:id="@+id/Drawerfootwear"
+        android:icon="@drawable/ic_menu_footwear"
+        android:title="Footwear" />
+    <item android:id="@+id/Drawershoes"
+        android:title="Shoes"
+        android:icon="@drawable/ic_sportshoe"
+        android:visible="false" />
+    <item android:id="@+id/Drawerslippers"
+        android:title="Slippers"
+        android:icon="@drawable/ic_slippers"
+        android:visible="false" />
+    <item android:id="@+id/Drawersnickers"
+        android:title="Sneakers"
+        android:icon="@drawable/ic_canvas"
+        android:visible="false" />
+
+        <!--android:id="@+id/Draweraccount"
+        android:icon="@drawable/ic_menu_account"-->
+    <item
+        android:id="@+id/Draweraccount"
+        android:icon="@drawable/ic_menu_account"
+        android:title="Account" />
+    <item
+        android:id="@+id/Drawercart"
+        android:icon="@drawable/ic_menu_cart"
+        android:title="My Cart" />
+    <item
+        android:id="@+id/Drawermyorders"
+        android:icon="@drawable/ic_myorders"
+        android:title="My Orders" />
+    <item
+        android:id="@+id/Drawerlogout"
+        android:icon="@drawable/ic_menu_logout"
+        android:title="Logout" />
+
+
+</menu>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="31dp"
+        app:srcCompat="@drawable/common_google_signin_btn_icon_dark_pressed"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/ProductName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView4"
+        android:layout_centerHorizontal="true"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/ProductQuantityy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView4"
+        android:layout_alignStart="@+id/ProductName"
+        android:layout_marginBottom="11dp"
+        android:text="Quantity" />
+
+    <Button
+        android:id="@+id/QuantitySubtract"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:text="-"
+        android:layout_alignBottom="@+id/imageView4"
+        android:layout_toStartOf="@+id/ProductQuantityy" />
+
+    <Button
+        android:id="@+id/Quantityadd"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:text="+"
+        android:layout_alignBottom="@+id/imageView4"
+        android:layout_toEndOf="@+id/ProductQuantityy" />
+
+    <Button
+        android:id="@+id/RemoveProduct"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:text="x"
+        android:layout_alignTop="@+id/ProductName"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/Producttotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/ProductQuantityy"
+        android:layout_marginStart="20dp"
+        android:layout_toEndOf="@+id/Quantityadd"
+        android:text="TextView" />
+
+
+
+</RelativeLayout>
